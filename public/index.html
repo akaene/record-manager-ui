@@ -9,10 +9,10 @@
     />
     <link rel="icon" href="favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
-    <script type="text/javascript" src="locale/cs.js"></script>
+    <script type="text/javascript" src="<%=htmlWebpackPlugin.options.basename %>/locale/cs.js"></script>
     <title><%=htmlWebpackPlugin.options.title %></title>
     <script src="https://unpkg.com/bowser@2.7.0/es5.js"></script>
-    <script src="config.js"></script>
+    <script src="<%=htmlWebpackPlugin.options.basename %>/config.js"></script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
